@@ -17,7 +17,7 @@ public class App {
 	@RequestMapping("/")
 	@ResponseBody
 	String home(){
-		return "Hello";
+		return "Hello World!";
 	}
 
 }
